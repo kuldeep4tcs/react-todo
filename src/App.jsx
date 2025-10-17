@@ -11,6 +11,7 @@ function App() {
        const updatedList = [...listData, inputText];
         setListData(updatedList);
         localStorage.setItem("taskList", updatedList);
+        console.log('hi newly added')
     }
     
     const deleteItemSingle = (index)=>{
